@@ -1,5 +1,5 @@
 <h1 align="center"> CLI-EMOJI </h1>
-<p align="center">Get random htmlCode's emoji with you CLI developed with Yargs</p>
+<p align="center">This is a study-project to get random htmlCode's emoji with you CLI developed with Yargs</p>
 
 <h2 align="center">Links </h2>
 <p align="center">
@@ -50,6 +50,17 @@ random: to get a random emoji from the API
 <parameters> are:
 --g or --group
 --c or --category
+
+Examples:
+
+node app.js random
+>> "open book's emoji: htmlCode = &#128214;"
+
+node app.js random --g drink
+>> "clinking beer mugs's emoji: htmlCode = &#127867;"
+
+node app.js random --c activities
+>> "volleyball's emoji: htmlCode = &#127952;"
 ```
 
 - Groups and Categories available
